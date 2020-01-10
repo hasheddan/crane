@@ -1,0 +1,7 @@
+apiVersion: crane.crossplane.io/v1alpha1
+kind: Job
+metadata:
+  name: test
+spec:
+  provider: gcp
+  repo: https://github.com/crossplaneio/stack-gcp
